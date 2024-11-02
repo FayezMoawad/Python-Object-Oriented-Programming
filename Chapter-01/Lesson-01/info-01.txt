@@ -1,0 +1,21 @@
+Lesson 1: Introduction to Object-Oriented Programming
+Concept: Understanding the Basics of OOP
+
+Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects,
+which can represent real-world entities or abstract concepts. 
+Each object can have attributes (data) and methods (functions or behaviors). 
+The main goal of OOP is to organize code in a way that models real-world or logical relationships.
+
+Key Concepts:
+Class: A blueprint for creating objects. Think of a class as a template. 
+For example, a Car class could represent the general structure of all cars.
+Object: An instance of a class. If Car is the class, 
+a specific car like "my red car" is an object created from that class.
+Attributes: Characteristics or properties of an object. For a Car, 
+attributes might include color, brand, and year.
+Methods: Functions defined inside a class that describe the behaviors of an object. 
+For example, a Car class might have a start_engine() method.
+
+OOP helps in structuring code that is modular, reusable, and easier to understand. 
+For example, using a Car class, you can create different car objects, each with specific 
+details but sharing common behaviors and properties.

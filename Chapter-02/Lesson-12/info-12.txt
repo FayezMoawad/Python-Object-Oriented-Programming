@@ -1,0 +1,29 @@
+Lesson 12: Understanding Static Methods and Class Methods
+Concept: How to Use @staticmethod and @classmethod
+
+In Python OOP, both static methods and class methods allow you to define methods 
+within a class that do not require access to instance attributes. However, 
+they serve different purposes and use different decorators.
+
+Key Concepts: Static Methods (@staticmethod)
+
+Do not require self or cls as a parameter.
+Belong to the class but do not have access to instance attributes or methods.
+Useful for utility functions that are related to the class but don’t modify the state of 
+the class or instances.
+
+Class Methods (@classmethod):
+
+Take cls as the first parameter, which refers to the class itself, not the instance.
+Can modify the class state that applies across all instances.
+Often used for factory methods or operations that are related to the class as a whole.
+
+When to Use Each:
+Static Methods: Use when you need a utility function that is logically related to the class 
+but doesn’t need to access or modify class or instance data.
+Class Methods: Use when you need to create or modify class-level data or when you need 
+to create instances in a flexible way (e.g., factory methods).
+Static and class methods add flexibility to your classes 
+by allowing you to define methods that work independently of instance-level data. 
+Understanding when to use them helps in creating clean and organized code that 
+aligns with best practices in object-oriented programming.

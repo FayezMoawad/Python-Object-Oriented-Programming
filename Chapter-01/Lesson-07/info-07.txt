@@ -1,0 +1,22 @@
+Lesson 7: Inheritance in Python OOP
+Concept: Understanding Inheritance and How to Use It
+
+Inheritance is a fundamental concept in OOP that allows one class (the child class) 
+to inherit attributes and methods from another class (the parent class). 
+This makes it easier to create a new class that shares the behavior of 
+an existing class while allowing for customization or extension.
+
+Key Concepts:
+Parent Class (Base Class): The class being inherited from.
+Child Class (Derived Class): The class that inherits from the parent class.
+super() Function: Used to call methods from the parent class in the child class.
+
+Benefits of Inheritance:
+Reusability: Common attributes and methods don’t need to be rewritten.
+Maintainability: Changes made in the parent class automatically propagate to child classes 
+if the methods are used without overrides.
+Organization: Allows for creating a hierarchical structure in code.
+
+Use inheritance to create a base class with shared functionality and extend 
+or modify this functionality in child classes. This helps reduce code duplication 
+and promotes better organization.

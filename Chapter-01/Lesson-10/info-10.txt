@@ -1,0 +1,29 @@
+Lesson 10: Composition in Python OOP
+Concept: Understanding Composition and How It Differs from Inheritance
+
+Composition is a design principle where one class is used as an attribute 
+in another class to build more complex objects. This is different from inheritance, 
+where a child class inherits properties and methods from a parent class. Composition 
+focuses on creating a "has-a" relationship, while inheritance creates an "is-a" relationship.
+
+Key Concepts: Composition
+Involves including an instance of one class within another class.
+Useful for creating more modular and reusable code.
+"Has-a" Relationship:
+Represents that one class contains another as part of its attributes. For example, 
+a Car class may have an Engine object as an attribute.
+
+Benefits of Composition:
+Modularity: Easier to modify or replace parts of the program. For example, 
+changing the Engine class won’t affect the Car class.
+Reusability: You can reuse the Engine class in other contexts, 
+such as for a Truck or Boat class.
+Flexibility: Unlike inheritance, composition doesn’t create a rigid hierarchy. 
+You can mix and match components as needed.
+Composition vs. Inheritance:
+Inheritance: Use when there is a clear "is-a" relationship (e.g., Car is a Vehicle).
+Composition: Use when there is a "has-a" relationship (e.g., Car has an Engine).
+Composition allows you to build complex objects from simpler ones, promoting code 
+that is easier to maintain and scale. When designing your code, consider 
+whether your classes should inherit from one another or use composition 
+to achieve the desired functionality.

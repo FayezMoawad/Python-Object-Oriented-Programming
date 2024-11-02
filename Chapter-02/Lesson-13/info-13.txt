@@ -1,0 +1,29 @@
+Lesson 13: Operator Overloading with Dunder Methods
+Concept: Customizing How Python Operators Behave with Your Classes
+
+Operator overloading allows you to redefine how Python operators work with your objects. 
+This is done using dunder (double underscore) methods, such as __add__, __sub__, and __eq__. 
+By implementing these methods, you can make your classes respond to standard operators 
+in custom ways, making your code more intuitive and expressive.
+
+Key Concepts:
+Common Dunder Methods for Operator Overloading:
+
+__add__(self, other): Customizes the + operator.
+__sub__(self, other): Customizes the - operator.
+__mul__(self, other): Customizes the * operator.
+__eq__(self, other): Customizes the == operator.
+__lt__(self, other): Customizes the < operator.
+__gt__(self, other): Customizes the > operator.
+Why Overload Operators?:
+
+To allow objects of custom classes to use standard Python operators in a meaningful way.
+To make code more readable and natural, e.g., adding two Car objects to compare or combine 
+their attributes.
+
+Benefits of Operator Overloading:
+Readability: Makes code more intuitive by allowing objects to use natural operations.
+Expressiveness: Simplifies the code needed for custom operations between objects.
+Flexibility: Provides a way to extend the capabilities of your class without complex method calls.
+Operator overloading lets you make your classes behave in a way that feels natural to Python users. 
+This can make your classes easier to use and integrate seamlessly with the rest of your code.

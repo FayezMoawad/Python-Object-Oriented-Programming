@@ -1,0 +1,22 @@
+Lesson 5: Encapsulation and Access Modifiers
+Concept: What is Encapsulation and How to Use Access Modifiers
+
+Encapsulation is one of the core principles of OOP. It refers to bundling the data 
+(attributes) and methods that operate on the data into a single unit—known as a class. 
+It helps in controlling how data is accessed or modified to protect the integrity of the data.
+
+Key Concepts: Encapsulation
+
+Ensures that the internal state of an object is protected from unintended modifications.
+Data and methods are enclosed within the class, and access is restricted using access modifiers.
+Access Modifiers:
+
+Public Attributes/Methods: Can be accessed from anywhere.
+Private Attributes/Methods: Indicated by a double underscore __ 
+prefix and cannot be accessed directly from outside the class.
+Protected Attributes/Methods: Indicated by a single underscore _ 
+prefix and should not be accessed directly, but it is still possible to do so.
+
+Encapsulation and access modifiers help in controlling how data is accessed and modified. 
+This safeguards the internal state of an object, ensuring data integrity and promoting safe 
+interaction with the object. Use encapsulation to design classes that are robust and maintainable.

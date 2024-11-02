@@ -1,0 +1,19 @@
+Lesson 2: Understanding __init__ and self
+Concept: The Constructor Method __init__ and the Use of self 
+
+In Python, the __init__ method is a special method that is automatically called 
+when an object is created from a class. It is often referred to as the constructor 
+because it constructs the object by initializing its attributes. 
+The self keyword is used to represent the instance of the class and allows you 
+to access its attributes and methods.
+
+Key Concepts:
+__init__ Method:
+It sets up the initial state of an object.
+It is the first method that runs when an object is instantiated.
+self Keyword:
+Refers to the current instance of the class.
+Used to access class attributes and methods from within the class.
+The __init__ method and self allow you to initialize and control the state of an object. 
+This flexibility is useful when you need to create multiple objects with unique properties 
+but the same behavior.

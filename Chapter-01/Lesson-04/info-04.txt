@@ -1,0 +1,21 @@
+Lesson 4: Understanding Class and Instance Attributes
+Concept: The Difference Between Class Attributes and Instance Attributes
+
+In Python OOP, it's important to distinguish between class attributes and instance attributes. 
+Understanding the difference helps in controlling data that is shared among all instances 
+versus data unique to each instance.
+
+Key Concepts:
+Instance Attributes:
+Defined within the __init__ method or other instance methods.
+Unique to each instance of the class.
+Example: self.color in the Car class—each car can have a different color.
+Class Attributes:
+Defined directly within the class but outside any method.
+Shared across all instances of the class.
+Useful for constants or default properties.
+
+Class attributes are ideal for properties that should be the same for every instance, 
+like default settings or shared characteristics. Instance attributes are used for properties 
+that vary between objects. This knowledge helps in structuring your code efficiently and managing 
+object data appropriately.

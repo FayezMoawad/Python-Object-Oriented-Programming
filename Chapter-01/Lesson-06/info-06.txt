@@ -1,0 +1,19 @@
+Lesson 6: Getters, Setters, and Property Decorators
+Concept: Using Getters, Setters, and @property to Control Access
+
+In Python, getters and setters are used to access and modify the values of private or 
+protected attributes while ensuring proper validation and encapsulation. 
+The @property decorator allows you to turn a method into a read-only attribute, 
+simplifying how attributes are accessed.
+
+Key Concepts:
+Getters: Methods that allow you to access the value of an attribute safely.
+Setters: Methods that allow you to modify the value of an attribute with added 
+validation or logic.
+@property Decorator:
+Simplifies access to attributes by making a method behave like an attribute.
+Often used for read-only properties or calculated properties.
+
+Getters, setters, and the @property decorator enhance encapsulation 
+by allowing you to manage access to an object’s attributes more flexibly. 
+This helps create clean, maintainable code while still protecting data integrity.

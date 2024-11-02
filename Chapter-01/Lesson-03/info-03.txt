@@ -1,0 +1,19 @@
+Lesson 3: Creating Methods in a Class
+Concept: Defining and Using Methods in a Class
+
+In Python OOP, methods are functions defined within a class that describe the behaviors 
+or actions an object can perform. They make objects interactive and capable of performing 
+tasks that reflect their real-world counterparts.
+
+Key Concepts:
+Methods:
+Defined using the def keyword.
+Always take self as the first parameter to access the instance attributes and other methods.
+Types of Methods:
+Instance Methods: The most common type, they operate on the instance of the class.
+Special Methods: Like __init__, these are built-in methods with special purposes 
+(e.g., __str__, __repr__).
+
+Methods bring objects to life by allowing them to perform actions. 
+You can use methods to create functionality that works on or returns data from 
+an object's attributes, making your code more interactive and realistic.

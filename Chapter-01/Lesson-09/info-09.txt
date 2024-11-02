@@ -1,0 +1,27 @@
+Lesson 9: Abstraction in Python OOP
+Concept: Understanding and Implementing Abstraction
+
+Abstraction is a principle in OOP that focuses on hiding the complex implementation 
+details of methods and exposing only the necessary parts. This makes it easier 
+for users to interact with the code without needing to understand the inner workings.
+
+Key Concepts:
+Abstract Class: A class that cannot be instantiated on its own and is meant to be 
+a blueprint for other classes.
+Abstract Method: A method declared in an abstract class that has no implementation 
+and must be overridden by subclasses.
+ABC Module: In Python, abstract classes and methods are created using the ABC 
+(Abstract Base Class) module from the abc library.
+
+Benefits of Abstraction:
+
+Simplifies Code Interaction: Users of the class can work with a simpler interface 
+and do not need to know the details.
+Enforces a Contract: Ensures that subclasses must implement specific methods, 
+maintaining consistency across related classes.
+Hides Complexity: Keeps the complex parts of the code private, exposing only 
+what is necessary for interaction.
+Abstraction is useful when designing large systems with many related classes. 
+It helps create a clean and manageable interface while enforcing consistent behavior 
+across subclasses. Use abstract classes to define the essential methods that 
+derived classes should implement.

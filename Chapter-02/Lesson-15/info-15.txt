@@ -1,0 +1,25 @@
+Lesson 15: Implementing Interfaces with Python OOP
+Concept: Understanding and Using Interfaces in Python
+
+Interfaces are used to define a set of methods that a class must implement without 
+providing their implementation. Python does not have built-in support for interfaces 
+like some other languages (e.g., Java), but we can use abstract base classes (ABCs) 
+to achieve a similar effect.
+
+Key Concepts:
+Interface Concept:
+Defines a set of methods that must be implemented by any class that inherits from it.
+Ensures consistency across different classes that share the same behavior.
+Using Abstract Base Classes (ABCs):
+Python’s abc module allows you to create abstract base classes.
+Abstract methods defined in ABCs must be implemented by the subclasses.
+
+Benefits of Using Interfaces:
+Consistency: Enforces a contract for subclasses, ensuring that all subclasses implement 
+the same set of methods.
+Flexibility: Different classes can implement the same interface in their own way.
+Extensibility: Makes it easier to add new classes that adhere to the same structure 
+without changing existing code.
+Using interfaces or abstract base classes helps enforce consistent behavior across 
+classes and improves code maintainability. This is especially useful in large projects 
+where different types of objects need to share a common set of methods.

@@ -1,0 +1,30 @@
+Lesson 11: Understanding Dunder (Magic) Methods
+Concept: Using Dunder Methods to Add Special Behaviors to Your Classes
+
+Dunder (Double Underscore) Methods, also known as magic methods, 
+are special methods in Python that start and end with double underscores 
+(e.g., __init__, __str__). These methods enable classes to have built-in behaviors 
+and allow objects to interact with Python's native operations in a more natural way.
+
+Key Concepts:
+Common Dunder Methods:
+
+__init__: Constructor method for initializing an object (covered in Lesson 2).
+__str__: Returns a human-readable string representation of an object.
+__repr__: Returns an unambiguous string representation of an object, typically used for debugging.
+__add__, __sub__, etc.: Allow objects to use arithmetic operations.
+__eq__, __lt__, etc.: Enable comparison operations.
+Why Use Dunder Methods?:
+
+They integrate your custom classes seamlessly with Python’s built-in operations and functions.
+They make your code more readable and intuitive.
+
+Other Useful Dunder Methods:
+__repr__: Often used alongside __str__ but intended for developers. 
+It outputs a detailed, unambiguous string representation.
+__len__: Allows the use of len() on an object.
+__eq__, __ne__, __lt__, etc.: 
+Customize how objects are compared using ==, !=, <, and so on.
+Dunder methods make your classes more intuitive to use and 
+integrate with Python’s built-in functions and operators. By adding dunder methods, 
+you can customize the behavior of your objects and make them behave like native Python objects.
